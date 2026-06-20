@@ -4,7 +4,7 @@ AI-powered platform that automates course equivalency evaluation across Saudi un
 
 ## Overview
 
-The traditional course equivalency process is manual, slow, and inconsistent. TRS replaces it with an intelligent automated pipeline that extracts and compares course information from uploaded documents — reducing committee workload and improving transparency for students.
+The traditional course equivalency process is manual, slow, and inconsistent. TRS replaces it with an intelligent automated pipeline that extracts and compares course information from uploaded documents,reducing committee workload and improving transparency for students.
 
 ## Features
 
