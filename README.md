@@ -1,32 +1,23 @@
-# TRS-TRansferrer-Equivalency-System
-AI-powered platform that automates course equivalency evaluation for transfer students using OCR, OpenAI LLMs, and Cosine Similarity.
+TRS — Transfer Equivalency System
+AI-powered platform that automates course equivalency evaluation across Saudi universities.
 
-# TRS — Transfer & Course Equivalency System
-AI-powered platform that automates course equivalency evaluation for transfer students at Taibah University.
+Overview
+The traditional course equivalency process is manual, slow, and inconsistent. TRS replaces it with an intelligent automated pipeline that extracts and compares course information from uploaded documents, reducing committee workload and improving transparency for students.
 
-## Overview
-The traditional course equivalency process is manual, slow, and error-prone. TRS replaces it with an intelligent, automated pipeline that extracts and compares course information from uploaded documents,reducing committee workload and improving transparency for students.
+Features:
+OCR Pipeline — extracts text from scanned transcripts and course descriptions
+AI-Driven Analysis — integrates GPT-4o for semantic information extraction
+Hybrid Scoring — combines Sentence Transformers and TF-IDF for intelligent course matching
+CrossEncoder Reranking — improves title comparison accuracy
+Scalable Backend — built with FastAPI and Supabase
+Student Portal — submit requests, upload documents, and track status in real time
+Committee Dashboard — review and manage equivalency decisions efficiently
 
-## Features
-- OCR Pipeline — extracts text from scanned transcripts and course descriptions
-- AI Driven Analysis — integrates OpenAI LLMs for semantic information extraction
-- Cosine Similarity — enables intelligent course matching and comparison
-- Scalable Backend — built with FastAPI and Supabase
-- Student Portal — submit requests, upload documents, and track status in real time
+Results:
+Achieved 100% accuracy across 12 course pairs from 3 Saudi universities.
 
-## Database Schema
-![Database Schema](database/schema.png)
+Team:
+Built by a 6-person Computer Science team as a Senior Project at Taibah University (2025 – 2026).
 
-## Tech Stack
-| Layer | Technology |
-|---|---|
-| Backend | FastAPI, Python |
-| Database | Supabase |
-| AI/ML | OpenAI API, OCR, Cosine Similarity |
-| Text Processing | NLP, Text Mining |
-
-## Team
-Built by a 6-person Computer Science team as a Senior Project at Taibah University (2025 – Present).
-
-## Status
-Currently under active development.
+Status:
+Completed and showcased at MAKEEN — selected as one of the top 16 projects out of 53+ in the CS department.
